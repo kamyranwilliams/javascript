@@ -9,11 +9,6 @@ body {
 	height: 150px;
 	width: 150px;
 }
-.id{
-	height: 150px;
-	width: 150px;
-	background-color:pink;
-}
 /* opaque = nontransparent, not letting light through, difficult to understand */
 .opaque {
 	opacity: 0.5;

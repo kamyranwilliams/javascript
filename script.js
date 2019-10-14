@@ -1,36 +1,53 @@
 // JavaScript is capitalized using "camel case": https://en.wikipedia.org/wiki/Camel_case
+// Check out the power of the classList // JavaScript is capitalized using "camel case": https://en.wikipedia.org/wiki/Camel_case
 // Check out the power of the classList property: https://www.w3schools.com/jsref/prop_element_classlist.asp
 
 // "elem" is an abbreviation for "the element that was clicked in the HTML"
 //6-8 is the function we are using but in order to use it we must define the function
-function makeOpaque(elem){
+function makeOpaque(elem) {
 	elem.classList.add("opaque");
 }
 
 function turnColor(elem){
-	elem.classList.remove("light_grey")
+	elem.classList.remove("light-grey")
 	elem.classList.add("orange")
 	//essentially I just started toggling
 }
 
 function toggleOpaque(elem){
-
+elem.classList.toggle("opaque")
 }
 
-function myFunction(elem){
- var element = document.getElementById("mybox");
- 	 element.classList.toggle("mystyle");
-	// rename this function so it's name is describes what it does!
-	// then add your own code here!
+/*function gone(elem){
+	elem.classList.display="none"
+}*/
+
+function turnGreen(elem){
+	elem.classList.remove("yellow")
+	elem.classList.add("green")
+	//essentially I just started toggling
 }
 
-/*When a box is clicked make it turn orange.
-When a box is clicked make it add the opaque class if it’s not already there and remove the opaque class if it is already there (this is called toggling!)
-When a box is clicked make it disappear completely from the page.
-When a box is clicked make it turn green (HINT: what does the word “cascade” mean?)
-When a box is clicked change its height to 100%.
-When a box is clicked make it turn the background color of the <body> to black.
-When a box is clicked make text appear inside.
+function longbox(elem){
+elem.style.height = '100%'
+}
+
+function makeDark(elem){
+document.body.style.backgroundColor = "#191D1E"
+}
+
+function showMessage(elem){
+document.getElementById("text").innerHTML = "Ahaha ahahaha..."
+}
+
+
+
+
+/*
+
+When a box is clicked make it disappear completely from the page.<need help>
+
+
 When a box is clicked make an image appear anywhere on the screen.
 Create your own functionality!*/
 

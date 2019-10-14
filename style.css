@@ -6,7 +6,7 @@ body {
 }
 
 .box {
-	height: 150px;
+	height: 300px;
 	width: calc(100%/10);
 }
 /* opaque = nontransparent, not letting light through, difficult to understand */

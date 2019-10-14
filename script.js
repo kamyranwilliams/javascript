@@ -18,9 +18,9 @@ function toggleOpaque(elem){
 elem.classList.toggle("opaque")
 }
 
-/*function gone(elem){
-	elem.classList.display="none"
-}*/
+function gone(elem){
+document.getElementById("id").style.display="none"
+}
 
 function turnGreen(elem){
 	elem.classList.remove("yellow")
